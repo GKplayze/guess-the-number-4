@@ -1,2 +1,2 @@
-# guess-the-number-4
+# guess-the-number-2
 Created with CodeSandbox

@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Oldenburg&display=swap");
+
+body {
+  font-family: sans-serif;
+  background: #222831;
+  color: #fff;
+  text-align: center;
+}
+
+.header-section h1 {
+  font-family: "Oldenburg", cursive;
+  font-size: 3rem;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: rgba(239, 113, 120, 1);
+}
+
+.header-section,
+.btn-section,
+.number-section {
+  width: 100%;
+  text-align: center;
+}
+
+input:focus {
+  outline: none;
+}
+
+.guess,
+.guess-number {
+  background-color: rgb(81 168 237);
+  color: #fff;
+  font-size: 50px;
+  font-weight: 900;
+  width: 80px;
+  height: 80px;
+  border: none;
+  border-radius: 180px;
+  text-align: center;
+}
+
+.retry,
+.check {
+  background: rgb(237, 81, 156);
+  background: linear-gradient(
+    98deg,
+    rgba(237, 81, 156, 1) 10%,
+    rgba(239, 113, 120, 1) 100%
+  );
+  margin: 15px;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  border-radius: 180px;
+  padding: 10px;
+  transition: all 0.3s ease 0s;
+}
+
+.retry:hover,
+.check:hover {
+  box-shadow: 0px 10px 2px #fff;
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+/* hide arrows
+ Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0 !important;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield !important;
+}
